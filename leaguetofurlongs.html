@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<title>Leagues to Furlongs</title>
+<style>
+   @import url("style.css");
+
+   li{
+    float:right;
+   }
+    nav {
+        position: fixed;
+        left: 0;
+        width: 200px;
+        height: 100%;
+        background-color:  rgba(211, 141, 141, 0.473);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    p {
+        color: crimson;
+    }
+  
+   section{
+       padding:20px;;
+       float:right;
+       margin:0 1.6cm;
+   }
+</style>  
+<main>
+<p>Select from the menu to convert the unit.</p>
+<nav class="unit-conversion">
+    <h3>Unit Conversion</h3>
+    <a href="index.html">Home Page</a>
+    <a href="FahrenheitToCelsius.html">Farenheit To Celsius</a>
+    <a href="cmtom.html">Centimeter to meter</a>
+    <a href="cupsandteaspoons.html">Cups to Teaspoons</a>
+</nav>
+     <li>Formula 1 league to furlong, 27.619xleague</li>
+   <section>
+       It is a general method of conversion of nautical league to furlong
+       1 league is equal to 27.619 furlong
+   </section>
+  
+   <script>
+       var x = prompt("Enter the nautical league : ","0");
+       var league = parseInt(x);
+       var furlong = league*27.619;
+       alert("Furlong : "+furlong);
+   </script>
+</main>  

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<title>Centimeter to Meter</title>
+<style>
+   @import url("style.css");
+
+   li{
+   float:right;
+   }
+   nav {
+        position: fixed;
+        left: 0;
+        width: 200px;
+        height: 100%;
+        background-color:  rgba(211, 141, 141, 0.473);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    p {
+        color: crimson;
+    }
+    section{
+       padding:20px;;
+       float:right;
+       margin:0 1.6cm;
+   }
+</style>  
+<main>
+<p>Select from the menu to convert the unit.</p>
+<nav class="unit-conversion">
+    <h3>Unit Conversion</h3>
+    <a href="index.html">Home Page</a>
+    <a href="FahrenheitToCelsius.html">Farenheit To Celsius</a>
+    <a href="cupsandteaspoons.html">Cups to Teaspoons</a>
+    <a href="leaguetofurlongs.html"> Leagues to Furlongs.</a>
+</nav>
+     <li>Formula 1 cm to m. cm/100</li>
+   <section>
+       It is the unit of length 100 centimeter is equal to 1 meter
+   </section>
+  
+    <script>
+       var x = prompt("Enter the length in centimeter : ","0");
+       var cm = parseInt(x);
+       var m = cm/100;
+       alert("Length in meter : "+m);
+    </script>
+</main>  

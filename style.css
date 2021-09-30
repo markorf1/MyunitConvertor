@@ -1,0 +1,44 @@
+<style>
+nav {
+    position: fixed;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color:  rgba(211, 141, 141, 0.473);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    color: crimson;
+}
+main{
+   margin-bottom:180%;
+   margin-left: 200px;
+}
+.unit_conversion{
+   font-family:sans-serif;
+   background:rgb(131, 82, 82);
+   padding:10px;;
+   width:200px;
+   position:fixed;
+}
+.unit_conversion a,
+.unit_conversion h3{
+   font-size:1.0cm;
+   display:block;
+   margin:0 0.6cm;
+   margin-top:2cm;
+   color:white;
+}
+.article{
+   box-sizing:border-box;
+   float:right;
+   font-family:sans-serif;
+   background:blue;
+   padding:10px;;
+   width:200px;
+   position:fixed
+}
+</style>
